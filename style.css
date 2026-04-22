@@ -1,5 +1,24 @@
-button{
-    background-color: rgb(68, 0, 255);
-    color:brown;
-    border-radius: 20px;
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+}
+
+#tiempo{
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+#estado {
+    font-size: 20px;
+    color: #38bdf8;
 }
