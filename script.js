@@ -33,3 +33,12 @@ document.addEventListener("mousemove", actividadDetectada);
 document.addEventListener("keydown", actividadDetectada);
 
 iniciarCronometro();
+
+let inicio = Date.now();
+
+setInterval(() => {
+  if (activo) {
+    let ahora = Date.now();
+    tiempo = Math.floor((ahora - inicio) / 1000);
+  }
+}, 1000);
